@@ -1,0 +1,23 @@
+<plugin name='tika-parser' version='0.1.1' grailsVersion='2.2 &gt; *'>
+  <author>Ingo Wiarda</author>
+  <authorEmail>ingo.wiarda@horner-project.eu</authorEmail>
+  <title>Apache Tika Parser Plugin</title>
+  <description>This plugin bundles the Apache Tika along with a parser service.</description>
+  <documentation>http://grails.org/plugin/tikaParser</documentation>
+  <type>TikaParserGrailsPlugin</type>
+  <resources>
+    <resource>tikaParser.TikaService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.apache.tika' name='tika-parsers' version='1.3' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
