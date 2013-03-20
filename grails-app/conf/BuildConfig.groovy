@@ -30,12 +30,17 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         compile('org.apache.tika:tika-parsers:1.3')
+        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
     }
 
     plugins {
         build(":tomcat:$grailsVersion",
               ":release:2.2.1",
               ":rest-client-builder:1.0.3") {
+            export = false
+        }
+        test (':spock:0.7'){
+            exclude "spock-grails-support"
             export = false
         }
     }
