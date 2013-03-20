@@ -13,6 +13,15 @@ import javax.xml.transform.stream.StreamResult
 
 class TikaService {
 
+    /**
+     * Parse a file and return the content and metadata that Apache Tika has found
+     * through its parsers as an XML string.
+     * @param file the file to parse
+     * @param tikaConfig a TikaConfig instance
+     * @param metadata a TikaMetadata instance
+     * @return an XML string which contains an XHTML document with metadata in the head and
+     * content data in the body section.
+     */
     String parseFile(File file, TikaConfig tikaConfig, Metadata metadata){
         SAXTransformerFactory factory = (SAXTransformerFactory) SAXTransformerFactory.newInstance()
         TransformerHandler handler = factory.newTransformerHandler()
@@ -32,7 +41,16 @@ class TikaService {
             throw new RuntimeException(e)
         }
     }
-    
+
+    /**
+     * Parse a file and return the content and metadata that Apache Tika has found
+     * through its parsers as an XML string.
+     * @param file the file to parse - Tika will employ a heuristic to determine
+     * the correct format. If this fails, use supply a tikaConfig and metadata parameter
+     * to the parseFile method.
+     * @return an XML string which contains an XHTML document with metadata in the head and
+     * content data in the body section.
+     */
     String parseFile(File file){
         TikaConfig tikaConfig = new TikaConfig()
         Metadata tikaMeta = new Metadata()
