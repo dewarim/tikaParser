@@ -1,13 +1,13 @@
 class TikaParserGrailsPlugin {
 
-    def version = "0.1.1"
+    def version = "1.3.0"
     def grailsVersion = "2.2 > *"
     def dependsOn = [:]
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
     
-    def title = "Apache Tika Parser Plugin" // Headline display name of the plugin
+    def title = "Apache Tika Plugin"
     def author = "Ingo Wiarda"
     def authorEmail = "ingo.wiarda@horner-project.eu"
     def description = 'This plugin bundles the Apache Tika along with a parser service.'
