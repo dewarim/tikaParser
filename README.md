@@ -6,7 +6,7 @@ This plugin wraps Apache Tika, a content analysis toolkit which can extract all 
 
 ## Usage
 
-Add a line 
+Add a line
 
     compile(':tika-parser:1.3.0')
 
@@ -16,7 +16,7 @@ You can now use the tikaService to extract a file's content as XML.
 
 ## What this plugin does
 
-It adds the Tika parsers as a dependency and provides a TikaService for easy content extraction. 
+It adds the Tika parsers as a dependency and provides a TikaService for easy content extraction.
 
 ## Warning
 
@@ -29,7 +29,7 @@ The version numbers are derived from the original library's version scheme: this
 ## Metadata
 
 * Author: Ingo Wiarda
-* Contact: ingo.wiarda@horner-project.eu  
+* Contact: ingo.wiarda@horner-project.eu
 * License: Apache 2.0 http://www.apache.org/licenses/
 * Source code: https://github.com/dewarim/tikaParser
 * Original project: http://tika.apache.org
