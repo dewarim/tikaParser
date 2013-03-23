@@ -1,17 +1,19 @@
 package tikaParser
 
+import javax.xml.transform.OutputKeys
+import javax.xml.transform.sax.SAXTransformerFactory
+import javax.xml.transform.sax.TransformerHandler
+import javax.xml.transform.stream.StreamResult
+
 import org.apache.tika.config.TikaConfig
 import org.apache.tika.metadata.Metadata
 import org.apache.tika.parser.AutoDetectParser
 import org.apache.tika.parser.ParseContext
 import org.apache.tika.parser.Parser
 
-import javax.xml.transform.OutputKeys
-import javax.xml.transform.sax.SAXTransformerFactory
-import javax.xml.transform.sax.TransformerHandler
-import javax.xml.transform.stream.StreamResult
-
 class TikaService {
+
+    static transactional = false
 
     /**
      * Parse a file and return the content and metadata that Apache Tika has found
@@ -23,7 +25,7 @@ class TikaService {
      * content data in the body section.
      */
     String parseFile(File file, TikaConfig tikaConfig, Metadata metadata){
-        SAXTransformerFactory factory = (SAXTransformerFactory) SAXTransformerFactory.newInstance()
+        SAXTransformerFactory factory = SAXTransformerFactory.newInstance()
         TransformerHandler handler = factory.newTransformerHandler()
         handler.transformer.setOutputProperty(OutputKeys.METHOD, "xml")
         handler.transformer.setOutputProperty(OutputKeys.INDENT, "yes")
@@ -37,8 +39,8 @@ class TikaService {
             parser.parse(new FileInputStream(file), handler, metadata, pc)
             return sw.toString()
         } catch (Exception e) {
-            log.debug("Failed to parse file ${file.absolutePath}", e)
-            throw new RuntimeException(e)
+            log.error("Failed to parse file ${file.absolutePath}", e)
+            throw e
         }
     }
 
@@ -56,5 +58,4 @@ class TikaService {
         Metadata tikaMeta = new Metadata()
         return parseFile(file, tikaConfig, tikaMeta)
     }
-    
 }
