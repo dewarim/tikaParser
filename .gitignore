@@ -1,11 +1,12 @@
 *.idea/**
 *.svn*
 *.settings*
-*.class
 target/**
 *~
 .svn*
 .svn
 .classpath
-
-
+webapp
+*.log
+plugin.xml
+*.zip
