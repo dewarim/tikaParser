@@ -4,7 +4,7 @@ class TikaParserGrailsPlugin {
     def grailsVersion = "2.0 > *"
     def title = "Apache Tika Plugin"
     def author = "Ingo Wiarda"
-    def authorEmail = "ingo.wiarda@horner-project.eu"
+    def authorEmail = "ingo.wiarda@texolution.eu"
     def description = 'Bundles the Apache Tika along with a parser service.'
 
     def documentation = "http://grails.org/plugin/tikaParser"
