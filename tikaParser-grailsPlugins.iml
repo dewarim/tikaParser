@@ -9,6 +9,9 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$MODULE_DIR$/target/plugins/hibernate-2.2.2">
+      <sourceFolder url="file://$MODULE_DIR$/target/plugins/hibernate-2.2.2/grails-app/i18n" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/target/plugins/release-2.2.1">
       <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-2.2.1/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-2.2.1/src/groovy" isTestSource="false" />
@@ -17,9 +20,10 @@
       <sourceFolder url="file://$MODULE_DIR$/target/plugins/rest-client-builder-1.0.3/src/groovy" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/target/plugins/spock-0.7" />
+    <content url="file://$MODULE_DIR$/target/plugins/tomcat-2.2.2" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.1" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.2" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (tikaParser-grailsPlugins)">
         <CLASSES>
@@ -77,6 +81,7 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.10.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.7-groovy-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

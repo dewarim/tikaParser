@@ -42,7 +42,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="grails-2.2.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (tikaParser)">
         <CLASSES>
@@ -101,12 +100,14 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.10.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.7-groovy-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="grails-2.2.2" level="application" />
     <orderEntry type="module" module-name="tikaParser-grailsPlugins" />
   </component>
 </module>
