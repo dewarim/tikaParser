@@ -1,14 +1,13 @@
 class TikaParserGrailsPlugin {
 
-    def version = "1.3.0.2"
+    def version = "1.3.0.3"
     def grailsVersion = "2.0 > *"
     def title = "Apache Tika Plugin"
     def author = "Ingo Wiarda"
-    def authorEmail = "ingo.wiarda@texolution.eu"
+    def authorEmail = "ingo_wiarda@dewarim.de"
     def description = 'Bundles the Apache Tika along with a parser service.'
     def documentation = "http://grails.org/plugin/tikaParser"
-    def license = 'APACHE'
-    def organization = [ name: "Texolution GmbH", url: "http://texolution.eu/" ]
+    def license = 'APACHE'    
     def issueManagement = [ system: "github", url: "https://github.com/dewarim/tikaParser/issues" ]
     def scm = [ url: "https://github.com/dewarim/tikaParser"
     ]
