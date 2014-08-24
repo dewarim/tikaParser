@@ -29,7 +29,7 @@ The version numbers are derived from the original library's version scheme: this
 ## Metadata
 
 * Author: Ingo Wiarda
-* Contact: ingo.wiarda@horner-project.eu
+* Contact: ingo_wiarda@dewarim.de
 * License: Apache 2.0 http://www.apache.org/licenses/
 * Source code: https://github.com/dewarim/tikaParser
 * Original project: http://tika.apache.org
