@@ -8,7 +8,7 @@ This plugin wraps Apache Tika, a content analysis toolkit which can extract all 
 
 Add a line
 
-    compile(':tika-parser:1.3.0')
+    compile(':tika-parser:1.4.0')
 
 to the plugins section in BuildConfig.groovy of your application.
 
