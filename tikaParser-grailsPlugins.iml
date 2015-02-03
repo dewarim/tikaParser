@@ -10,53 +10,30 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/target/plugins/release-2.2.1">
-      <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-2.2.1/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-2.2.1/src/groovy" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/target/plugins/release-3.0.1">
+      <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-3.0.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/plugins/release-3.0.1/src/groovy" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/target/plugins/rest-client-builder-1.0.3">
-      <sourceFolder url="file://$MODULE_DIR$/target/plugins/rest-client-builder-1.0.3/src/groovy" isTestSource="false" />
-    </content>
+    <content url="file://$MODULE_DIR$/target/plugins/rest-client-builder-2.0.3" />
     <content url="file://$MODULE_DIR$/target/plugins/spock-0.7" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.4.3" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.4.4" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (tikaParser-grailsPlugins)">
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/rome/rome/0.9/rome-0.9.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mp4parser/isoparser/1.0-RC-1/isoparser-1.0-RC-1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.8/poi-ooxml-schemas-3.8.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.8/poi-ooxml-3.8.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.8/poi-scratchpad-3.8.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.8/poi-3.8.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/jempbox/1.7.1/jempbox-1.7.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/1.7.1/fontbox-1.7.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/1.7.1/pdfbox-1.7.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.5/commons-codec-1.5.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.0/xz-1.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.3/tika-core-1.3.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-parsers/1.3/tika-parsers-1.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-grails-support/0.7-groovy-2.0/spock-grails-support-0.7-groovy-2.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar!/" />
@@ -79,6 +56,34 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.8.0/ant-1.8.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/pff/java-libpst/0.8.1/java-libpst-0.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/uwyn/jhighlight/1.0/jhighlight-1.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.11/poi-ooxml-schemas-3.11.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.11/poi-ooxml-3.11.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.11/poi-scratchpad-3.11.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.11/poi-3.11.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/jempbox/1.8.8/jempbox-1.8.8.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/1.8.8/fontbox-1.8.8.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/1.8.8/pdfbox-1.8.8.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/tukaani/xz/1.5/xz-1.5.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jmatio/jmatio/1.0/jmatio-1.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/edu/ucar/unidataCommon/4.2.20/unidataCommon-4.2.20.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/edu/ucar/netcdf/4.2.20/netcdf-4.2.20.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/gagravarr/vorbis-java-tika/0.6/vorbis-java-tika-0.6.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.7/tika-core-1.7.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-parsers/1.7/tika-parsers-1.7.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/rome/rome/1.0/rome-1.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -86,4 +91,3 @@
     </orderEntry>
   </component>
 </module>
-

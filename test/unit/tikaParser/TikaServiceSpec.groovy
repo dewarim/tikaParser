@@ -1,13 +1,13 @@
 package tikaParser
 
-import grails.plugin.spock.UnitSpec
 import grails.test.mixin.TestFor
+import spock.lang.Specification
 
 /**
  * Test for tikaService: try to parse test data.
  */
 @TestFor(TikaService)
-class TikaServiceSpec extends UnitSpec {
+class TikaServiceSpec extends Specification {
 
     def 'Parse a word file to XML'() {
         given:

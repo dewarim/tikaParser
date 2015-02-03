@@ -1,6 +1,6 @@
 class TikaParserGrailsPlugin {
 
-    def version = "1.4.0"
+    def version = "1.7.0"
     def grailsVersion = "2.0 > *"
     def title = "Apache Tika Plugin"
     def author = "Ingo Wiarda"
