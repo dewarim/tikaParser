@@ -1,5 +1,7 @@
 grails.project.work.dir = 'target'
 grails.project.dependency.resolver = "maven"
+grails.project.target.level = 1.8
+grails.project.source.level = 1.8
 grails.project.dependency.resolution = {
 
     inherits("global") {
@@ -8,27 +10,20 @@ grails.project.dependency.resolution = {
     log 'warn'
 
     repositories {
-        grailsCentral()
         mavenLocal()
         mavenCentral()
+        grailsCentral()
     }
 
     dependencies {
-        compile('org.apache.tika:tika-parsers:1.3')
-
-        test "org.spockframework:spock-grails-support:0.7-groovy-2.0", {
-            export = false
-        }
+        compile('org.apache.tika:tika-parsers:1.7')
     }
 
     plugins {
-        build ':release:2.2.1', ':rest-client-builder:1.0.3', {
+        compile (":release:3.0.1"){
             export = false
         }
-
-        test (':spock:0.7') {
-            exclude "spock-grails-support"
-            export = false
-        }
+        compile ":rest-client-builder:2.0.4-SNAPSHOT"
+        compile ":asset-pipeline:2.1.1"
     }
 }
