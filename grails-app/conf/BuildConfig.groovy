@@ -16,14 +16,14 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        compile('org.apache.tika:tika-parsers:1.7')
+        compile('org.apache.tika:tika-parsers:1.9')
     }
 
     plugins {
-        compile (":release:3.0.1"){
+        compile (":release:3.1.1"){
             export = false
         }
-        compile ":rest-client-builder:2.0.4-SNAPSHOT"
+        compile ":rest-client-builder:2.1.1"
         compile ":asset-pipeline:2.1.1"
     }
 }
