@@ -11,7 +11,7 @@ I will skip on linking to the open source projects from the Apache Foundation.
 
 * org.apache.tika:tika-core: Apache 2.0
 * org.gagravarr:vorbis-java-tika: Apache 2.0,
-  see [Vorbis-Java project](pagehttps://github.com/Gagravarr/VorbisJava/blob/master/LICENSE.txt)
+  see [Vorbis-Java project](https://github.com/Gagravarr/VorbisJava/blob/master/LICENSE.txt)
 * net.sourceforge.jmatio:jmatio: [BSD License](JMatIO.bsd.txt)
 * org.apache.james mime4j: [Apache 2.0](apache-mime4j-project-license.txt), with contributions under Perl Artistic License and Apache 1.1. (for Apache commons-logging)
      
