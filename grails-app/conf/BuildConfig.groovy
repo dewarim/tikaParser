@@ -17,7 +17,7 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        compile('org.apache.tika:tika-parsers:1.9')
+        compile('org.apache.tika:tika-parsers:1.11')
     }
 
     plugins {
