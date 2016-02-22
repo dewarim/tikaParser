@@ -54,8 +54,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/codelibs/jhighlight/1.0.2/jhighlight-1.0.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/rome/rome/1.0/rome-1.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/" />
@@ -159,12 +157,15 @@
           <root url="jar://$MAVEN_REPOSITORY$/com/healthmarketscience/jackcess/jackcess-encrypt/2.1.1/jackcess-encrypt-2.1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/healthmarketscience/jackcess/jackcess/2.1.2/jackcess-2.1.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.11/tika-core-1.11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-parsers/1.11/tika-parsers-1.11.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20140107/json-20140107.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/2.0.2/jdom-2.0.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/rometools/rome-utils/1.5.1/rome-utils-1.5.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/rometools/rome/1.5.1/rome-1.5.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.12/tika-core-1.12.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-parsers/1.12/tika-parsers-1.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
