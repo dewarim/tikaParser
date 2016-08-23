@@ -72,7 +72,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jmatio/jmatio/1.0/jmatio-1.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-rest-client/3.1.4.RELEASE/grails-datastore-rest-client-3.1.4.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar!/" />
