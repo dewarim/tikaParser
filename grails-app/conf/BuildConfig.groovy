@@ -26,6 +26,6 @@ grails.project.dependency.resolution = {
         }
 //        compile ":rest-client-builder:2.1.1"
         compile ":rest-client-builder:1.0.3" // use old version to allow publishing of plugin to grails central.
-        compile ":asset-pipeline:2.6.10"
+        compile ":asset-pipeline:2.11.0"
     }
 }
