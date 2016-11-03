@@ -8,7 +8,7 @@ This plugin wraps Apache Tika, a content analysis toolkit which can extract all 
 
 Add a line
 
-    compile(':tika-parser:1.12')
+    compile(':tika-parser:1.13')
 
 to the plugins section in BuildConfig.groovy of your application.
 
@@ -25,7 +25,7 @@ This plugin downloads "all the things", meaning it may increase the size of you 
 ## Versioning
 
 The version numbers are derived from the original library's version scheme: 
-this plugin is version 1.12, meaning it is based on Tika 1.12.
+this plugin is version 1.13, meaning it is based on Tika 1.13.
 
 ## Metadata
 
